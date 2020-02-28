@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include <cmath>
+
+int main()
+{
+    int a, b;
+    std::cin >> a >> b;
+    for (int i = a; i < b+1; ++i)
+    {
+        std::cout << i;
+    }
+    return 0;
+}
