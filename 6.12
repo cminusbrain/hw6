@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include <cmath>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    double result = 1;
+    for (double i = 1.1; i <= n; i += 0.1)
+    {
+        result *= i;
+    }
+    std::cout << result;
+    return 0;
+}
