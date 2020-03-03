@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include <cmath>
+
+int main()
+{
+    double cost_1;
+    std::cin >> cost_1;
+    for (double i = 1.2; i <= 2; i += 0.2)
+    {
+        std::cout << (cost_1 * i) << " ";
+    }
+    return 0;
+}
