@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include <cmath>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    double sum = 0;
+    for (double i = 1; i <= n; i++)
+    {
+        sum += 1 / i;
+    }
+    std::cout << sum;
+    return 0;
+}
