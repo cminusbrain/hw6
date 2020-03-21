@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <ctime>
+
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int sum = 0;
+    for (int i = 1; i < n; i++)
+    {
+        sum += 2 * i - 1;
+        std::cout << sum << std::endl;
+    }
+    return 0;
+}
