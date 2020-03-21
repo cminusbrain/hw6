@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <ctime>
+
+
+int main()
+{
+    int n;
+    double a;
+    std::cin >> a >> n;
+    int product = 1;
+    for (int i = 1; i < n; i++)
+    {
+        product *= a;
+        std::cout << product << std::endl;
+    }
+    return 0;
+}
